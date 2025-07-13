@@ -1,0 +1,33 @@
+#!/bin/bash
+# SASS Installation Steps for Windows
+
+1. INSTALL NODE.JS:
+   - Download from https://nodejs.org/ (LTS version)
+   - Run installer with default settings
+
+2. VERIFY INSTALLATION:
+   Open Command Prompt and run:
+   node --version
+   npm --version
+
+3. INSTALL SASS GLOBALLY:
+   npm install -g sass
+
+4. VERIFY SASS:
+   sass --version
+
+5. PROJECT SETUP:
+   mkdir scss css
+   New-Item scss/style.scss -type file
+
+6. BASIC USAGE:
+   # One-time compilation
+   sass scss/style.scss css/style.css
+   
+   # Watch for changes
+   sass --watch scss:css
+
+7. TROUBLESHOOTING:
+   - If 'sass' not recognized, restart terminal
+   - Ensure no file extensions (.txt) on .scss files
+   - Check file paths when compiling
