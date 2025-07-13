@@ -1,6 +1,13 @@
+// Utilities
 @import '0-debug_log';
+
+// Variables
 @import '1-color_variable';
 
+// Components
+@import '2-nested_tag';
+
+// Global styles
 body {
   margin: 0;
   p {
