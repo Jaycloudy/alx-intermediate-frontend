@@ -1,0 +1,12 @@
+/* Add new nested rules */
+header {
+  background: #f5f5f5;
+  nav {
+    ul {
+      margin: 0;
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}
